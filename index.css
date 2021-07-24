@@ -1,0 +1,159 @@
+.main{
+    background-color:pink ;
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    border: 2px black solid;
+}
+
+.main2{
+    background-color:gainsboro ;
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    border: 2px black solid;
+    margin-top: 16px;
+}
+
+#img1,#img2{
+    width: 100px;
+    height: 100px;
+}
+#img1{
+    float: left;
+}
+#img2{
+    float: right;
+}
+
+#txt1{
+    clear: both;
+    text-align: center;
+    font-size: x-large;
+    
+}
+
+#div2{
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.a{
+    color: red;
+}
+
+#div3{
+margin-top: 16px;
+}
+
+.under-large-text{
+    font-size: x-large;
+    text-decoration: underline;
+    margin-left: 16px;
+}
+
+#lorem{
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.small-img{
+    margin-left: 16px;
+    width: 40px;
+    height: 40px;
+}
+
+.calc1{
+    text-decoration: underline;
+    color: red;
+}
+
+#div4{
+    margin-top: 16px;
+}
+
+.center-txt{
+    text-align: center;
+}
+
+.margin-txt{
+    margin-left: 8px;
+}
+
+#hr{
+    width: 80%;
+}
+
+.n8-txt{
+    font-size: x-large;
+    text-decoration: underline;
+}
+
+.width80{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#parent{
+    width: 80%;
+    height: 400px;
+    margin: 0 auto;
+    border: 2px black solid;
+    background-color: aquamarine;
+    margin-top: 16px;
+}
+
+#child1,#child2{
+    width: 48%;
+    height: 300px;
+    border: 2px black solid;
+    text-align: center;
+    background-color: white;
+}
+#child1{
+    float: left;
+}
+#child2{
+    float: right;
+}
+
+#nav{
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.clickable:hover{
+    color: red;
+}
+
+.clickable:active{
+    cursor: grab;
+}
+
+.small-img2{
+    width: 40px;
+    height: 40px;
+}
+
+.imgDiv1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 32px;
+}
+
+#of{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    overflow-y: scroll;
+    margin-bottom: 100px;
+    background-color: aqua;
+}
